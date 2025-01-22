@@ -19,10 +19,10 @@ cd LabMonitor
 ```
 
 ### Step 1.1: Clone the Repository
-Create a new Conda environment using the provided requirements.txt file:
+Create a new Conda environment using the provided requirements.yml file:
 ```bash
-conda create --name labmonitor --file requirements.txt
-conda activate labmonitor
+conda env create -f environment.yml
+conda activate LabMonitor
 ```
 
 ### Start LabMonitor:
